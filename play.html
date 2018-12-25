@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>影片详情</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <!--<link href="files/影片详情/styles.css" type="text/css" rel="stylesheet"/>-->
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/影片详情/data.js"></script>
+    <link rel="stylesheet" href="css/video-js.6.0.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/video.6.0.js"></script>
+		<script src="js/index.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body class="bg_black">
+		<div class="header">
+			<div class="con">
+				<a href="" class="logo">
+					<img src="img/logo.png" alt="" />
+				</a>
+				<ul class="nav">
+					<li>
+						<a href="index.html">院线</a>
+					</li>
+					<li>
+						<a href="vault.html">片库</a>
+					</li>
+					<li>
+						<a href="subject.html">专题</a>
+					</li>
+					<li>
+						<a href="room.html">放映室</a>
+					</li>
+				</ul>
+				<div class="search">
+					<input type="text" id="search" placeholder="请输入片名、台词、演员"/>
+					<bttton class="btn_search"></bttton>
+					<div class="list" id="searchlist">
+						<a href="play.html">红海行动</a>
+						<a href="play.html">复仇者联盟3</a>
+						<a href="play.html">战狼2</a>
+						<a href="play.html">影</a>
+						<a href="play.html">寒战</a>
+						<a href="play.html">破坏王2</a>
+					</div>
+				</div>
+				<div class="userbox">
+					<a class="userimg">
+					</a>
+					<span class="vip"></span>
+					<label>|</label>
+					<a href="" class="gy"></a>
+				</div>
+			</div>
+		</div>
+      <div  class=" content videoplay">
+        <!--<img id="u54_img" class="img " src="images/影片详情/u54.png"/>-->
+        <div class="videobox">
+					<div class="videoheader">
+						<span>建军大业</span>
+					</div>
+					<video id="my-video" width="930" height="550" class="video-js vjs-default-skin vjs-big-play-centered" 
+						controls preload="none" 
+						data-setup="{}" poster="http://vjs.zencdn.net/v/oceans.png">
+				    	<source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+				  </video>
+				  <div class="chat">
+						<div class="topic">
+							<span class="on" style="display: block;">聊天</span>
+							<span>测试001</span>
+							<span>测试002</span>
+						</div>
+						<!--第一个聊天窗口-->
+						<div class="chatbox" style="display: block;">
+							<div class="chatlist">
+								<p class="v5"></p>
+								<label>
+									<span class="name">测试001</span>
+									<span>：</span>
+									<div class="msgbox">
+										<a class="msg_img">个人信息</a>
+										<a class="chat_img">私聊</a>
+									</div>
+								</label>
+								<span class="text">这个电影不错哦!这个电影不错哦!这个电影不错哦!这个电影不错哦!</span>
+							</div>
+						</div>
+						<!--第二个聊天窗口-->
+						<div class="chatbox">
+							<div class="chatlist">
+								<p class="v5"></p>
+								<label>
+									<span class="name">hhhh</span>
+									<span>：</span>
+									<div class="msgbox">
+										<a class="msg_img">个人信息</a>
+										<a class="chat_img">私聊</a>
+									</div>
+								</label>
+								<span class="text">这个电影不错哦!这个电影不错哦!这个电影不错哦!这个电影不错哦!</span>
+							</div>
+						</div>
+						<!--第三个聊天窗口-->
+						<div class="chatbox">
+							<div class="chatlist">
+								<p class="v5"></p>
+								<label>
+									<span class="name">xxxx</span>
+									<span>：</span>
+									<div class="msgbox">
+										<a class="msg_img">个人信息</a>
+										<a class="chat_img">私聊</a>
+									</div>
+								</label>
+								<span class="text">这个电影不错哦!这个电影不错哦!这个电影不错哦!这个电影不错哦!</span>
+							</div>
+						</div>
+						<div class="userheader">
+							<a>
+								<img src="img/u1.png"/>
+							</a>
+							<a>
+								<img src="img/u2.png"/>
+							</a>
+							<a>
+								<img src="img/u1.png"/>
+							</a>
+							<a>
+								<img src="img/u2.png"/>
+							</a>
+							<a>
+								<img src="img/user.png"/>
+							</a>
+							<span>正在观看(234)</span>
+						</div>
+						<div class="chat_input">
+							<input type="text" placeholder="请输入聊天内容"/>
+							<button class="btn_input">发送</button>
+						</div>
+					</div>
+			  </div>	
+      </div>
+			<div class="content othermsg">
+				<div class="leftbox">
+					<h1>影片简介</h1>
+					<div class="introbox">
+						<div class="intro">
+							<img src="img/timg (2).jpg" alt="" />
+							<div class="introlist">
+								<h2>建军大业</h2>
+								<p>
+									<span>评分：</span>
+									<span></span>
+								</p>
+								<p>
+									<span>年份：</span>
+									<span>2009</span>
+								</p>
+								<p>
+									<span>地区：</span>
+									<span>中国</span>
+								</p>
+								<p>
+									<span>导演：</span>
+									<span>刘伟强</span>
+								</p>
+								<p>
+									<span>演员：</span>
+									<span>刘烨</span>
+									<span>朱亚文</span>
+									<span>黄志忠</span>
+									<span>王景春</span>
+								</p>
+								<p>
+									<span>类型：</span>
+									<span>历史</span>
+									<span>战争</span>
+								</p>
+							</div>
+							<div class="introtext">
+							   《建军大业》是“建国三部曲”系列的第三部，献礼建军90周年的历史片。由刘伟强执导，韩三平担任总策划及艺术总监，黄建新监制，刘烨、朱亚文、黄志忠、王景春、欧豪、刘昊然、马天宇等主演  。
+该片讲述了1927年第一次国内革命战争失败后，中国共产党挽救革命，于当年8月1日在江西南昌举行武装起义，从而创建中国共产党领导的人民军队的故事
+							</div>
+						</div>
+						<div class="actorbox">
+							<h2>演职人员：</h2>
+							<ul class="actorlist">
+								<li>
+									<img src="img/timg (3).jpg"/>
+									<p>
+										<label>刘烨</label>
+										<span>饰毛泽东</span>
+									</p>
+								</li>
+								<li>
+									<img src="img/timg (4).jpg"/>
+									<p>
+										<label>朱亚文</label>
+										<span>饰周恩来</span>
+									</p>
+								</li>
+								<li>
+									<img src="img/333333.jpg"/>
+									<p>
+										<label>黄志忠</label>
+										<span>饰朱德</span>
+									</p>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="rightbox">
+					<h1>相关推荐</h1>
+					<a>
+						<img src="img/x1.jpg"/>
+						<div class="msg">
+							<h3>白蛇传</h3>
+							<p>中国</p>
+							<p>
+								<span>古装</span><span>剧情</span><span>动作</span>
+							</p>
+							<p><span>1450播放</span>&nbsp;&nbsp;<span>999收藏</span></p>
+						</div>
+					</a>
+					<a>
+						<img src="img/x2.jpg"/>
+						<div class="msg">
+							<h3>全城戒备</h3>
+							<p>中国</p>
+							<p>
+								<span>科幻</span><span>剧情</span><span>动作</span>
+							</p>
+							<p><span>1450播放</span>&nbsp;&nbsp;<span>999收藏</span></p>
+						</div>
+					</a>
+					<a>
+						<img src="img/x3.jpg"/>
+						<div class="msg">
+							<h3>黑天鹅</h3>
+							<p>美国</p>
+							<p>
+								<span>剧情</span><span>动作</span>
+							</p>
+							<p><span>1450播放</span>&nbsp;&nbsp;<span>999收藏</span></p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="content comments">
+			<h1>评论(1846)</h1>
+			<div class="textbox">
+				<textarea name="" rows="" cols="" id="wordCount"></textarea>
+				<span class="words">200</span>
+				<button class="btn_sure">评论</button>
+			</div>
+			<h1>最新评论</h1>
+			<ul class="commentlist">
+				<li>
+					<img class="left" src="img/timg.jpg"/>
+					<div class="box">
+						<p>
+							<label>潜龙出海：</label>
+							<span>影片于2017年7月27日在中国大陆上映，8月3日在中国香港及澳门上映  。2018年6月22日，被颁“脏烟灰缸奖”。</span>
+							<span>影片于2017年7月27日在中国大陆上映，8月3日在中国香港及澳门上映  。2018年6月22日，被颁“脏烟灰缸奖”。</span>
+						</p>
+						<time>56分钟前</time>
+					</div>
+					<div class="right">
+						<span>举报</span>
+						<span>|</span>
+						<span>(14)</span>
+						<span>|</span>
+						<span>分享</span>
+						<span>|</span>
+						<span>回复</span>
+					</div>
+				</li>
+				<li>
+					<img class="left" src="img/23cce985c1986cd32249e21a911f0174.jpg"/>
+					<div class="box">
+						<p>
+							<label>superme：</label>
+							<span>good，非常好看！！</span>
+						</p>
+						<time>56分钟前</time>
+					</div>
+					<div class="right">
+						<span>举报</span>
+						<span>|</span>
+						<span>(14)</span>
+						<span>|</span>
+						<span>分享</span>
+						<span>|</span>
+						<span>回复</span>
+					</div>
+				</li>
+				<li>
+					<img class="left" src="img/timg (1).jpg"/>
+					<div class="box">
+						<p>
+							<label>坐井观天的青蛙：</label>
+							<span>刘烨和李沁曾在2011年《建党伟业》中分别饰演毛泽东和杨开慧，这是他们第二次饰演同一角色，也是第二次合作</span>
+						</p>
+						<time>56分钟前</time>
+					</div>
+					<div class="right">
+						<span>举报</span>
+						<span>|</span>
+						<span>(14)</span>
+						<span>|</span>
+						<span>分享</span>
+						<span>|</span>
+						<span>回复</span>
+					</div>
+				</li>
+			</ul>
+			<div class="page">
+				<a>&lt;</a>
+				<a class="active">1</a>
+				<a>3</a>
+				<a>3</a>
+				<a>4</a>
+				<a>&gt;</a>
+			</div>
+		</div>
+  </body>
+  <script src="js/c.js" type="text/javascript" charset="utf-8"></script>
+</html>
